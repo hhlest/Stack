@@ -5,7 +5,7 @@ public class Main {
         String str2 = "B";
         String str3 = "C";
 
-        StackContainer myStack = new StackContainer();
+        Stack myStack = new Stack();
         myStack.addToStack(str1);
         myStack.addToStack(str2);
         myStack.addToStack(str3);

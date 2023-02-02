@@ -1,19 +1,19 @@
 import java.io.*;
 
-public class StackContainer {
+public class Stack {
     private Object[] sc = new Object[4];
     private int topOfTheStack = -1;
 
-    public StackContainer(Object[] sc) {
+    public Stack(Object[] sc) {
         this.sc = sc;
     }
 
-    public StackContainer(Object[] sc, int topOfTheStack) {
+    public Stack(Object[] sc, int topOfTheStack) {
         this.sc = sc;
         this.topOfTheStack = topOfTheStack;
     }
 
-    public StackContainer() {
+    public Stack() {
     }
 
     public Object[] getSc() {
